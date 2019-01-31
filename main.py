@@ -29,11 +29,11 @@ GPIO.setup(pinEndSwitch, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(pinSwitch, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
            
 #Setup servos
-futabaR = motors.Servo(19, 178, 160, 0) #DONE
-spektrum = motors.Servo(40, 159, 115, 1) #DONE
-hitec = motors.Servo(0, 180, 180, 2) #DONE
-reely = motors.Servo(0, 180, 180, 3) #DONE
-futabaS = motors.Servo(18, 178, 160, 4) #DONE
+futabaR = motors.Servo(19, 178, 160, 0)
+spektrum = motors.Servo(40, 159, 115, 1)
+hitec = motors.Servo(0, 180, 180, 2)
+reely = motors.Servo(0, 180, 180, 3)
+futabaS = motors.Servo(18, 178, 160, 4)
 
 #Setup stepper
 stepper = motors.Stepper(32,36,38,40)
